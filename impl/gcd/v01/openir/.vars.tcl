@@ -1,0 +1,6 @@
+set vars(blkname)                            "gcd"
+set vars(depth)                              "4"
+set vars(eda)                                "openir"
+set vars(g2module)                           "openir"
+set vars(pagename)                           "openir"
+set vars(view)                               "Exec"
