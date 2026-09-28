@@ -1,5 +1,6 @@
 
-set pjroot $env(G2_SYS)/projs/G2_demo_sky130
+#set pjroot $env(G2_SYS)/projs/G2_demo_sky130
+set pjroot [pwd]
 
 
 set pdk    [file normalize $env(G2_ROOT)/../]/pdk/sky130
