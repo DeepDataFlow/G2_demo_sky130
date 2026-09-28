@@ -1,0 +1,8 @@
+set vars(DIR)                                "1"
+set vars(FILE)                               "0"
+set vars(LINK)                               "0"
+set vars(MD)                                 "0"
+set vars(SVG)                                "0"
+set vars(depth)                              "1"
+set vars(g2module)                           "fsys"
+set vars(pagename)                           "docs"

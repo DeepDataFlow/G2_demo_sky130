@@ -1,0 +1,1 @@
+- Integrated fake memory 1024x32

@@ -1,0 +1,5 @@
+set vars(depth)                              "2"
+set vars(g2module)                           "spec-global"
+set vars(pagename)                           "global"
+set vars(syn_corner)                         "func.max_ss1p600v100c_cworst"
+set vars(unit,time)                          "ns"

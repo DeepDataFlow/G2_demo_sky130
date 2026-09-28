@@ -1,0 +1,6 @@
+set vars(depth)                              "3"
+set vars(g2module)                           "scm-eda"
+set vars(onoff_date)                         "1"
+set vars(onoff_ext)                          "1"
+set vars(pagename)                           "yosys"
+set vars(srcpath)                            "/home/york/g2_release/G2_v1.0.0/g2/../g2_user/scm/yosys"

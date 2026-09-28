@@ -1,0 +1,33 @@
+
+
+create_supply_port VDD
+create_supply_net  VDD
+connect_supply_net VDD -ports VDD
+
+create_supply_port VSS
+create_supply_net  VSS
+connect_supply_net VSS -ports VSS
+
+create_supply_set ss_VDD   -function {power VDD}  -function {ground VSS} 
+
+create_power_domain pd_VDD  -supply {primary ss_VDD} -elements {.}
+
+
+#--------------------------------
+# Power State
+#--------------------------------
+add_power_state ss_VDD  -state ps_0p900  {-supply_expr {power  == `{FULL_ON, 0.900}}}
+add_power_state ss_VDD  -state ps_ground {-supply_expr {ground == `{FULL_ON, 0.000}}}
+
+
+#--------------------------------
+# PST
+#--------------------------------
+set supplies ""
+lappend supplies ss_VDD.power
+lappend supplies ss_VDD.ground
+
+##                                      VDD     VSS
+create_pst    pst   -supplies         $supplies
+add_pst_state allon -pst pst -state   { ps_0p900  ps_ground }
+
