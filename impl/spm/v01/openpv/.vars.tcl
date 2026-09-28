@@ -1,0 +1,6 @@
+set vars(blkname)                            "spm"
+set vars(depth)                              "4"
+set vars(eda)                                "openpv"
+set vars(g2module)                           "openpv"
+set vars(pagename)                           "openpv"
+set vars(view)                               "Exec"

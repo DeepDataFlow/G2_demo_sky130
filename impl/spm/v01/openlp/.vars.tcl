@@ -1,0 +1,6 @@
+set vars(blkname)                            "spm"
+set vars(depth)                              "4"
+set vars(eda_lpver)                          "openlp"
+set vars(g2module)                           "openlps"
+set vars(onoff_openlp)                       "1"
+set vars(pagename)                           "openlp"
