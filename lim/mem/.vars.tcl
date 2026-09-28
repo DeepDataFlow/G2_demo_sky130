@@ -1,0 +1,7 @@
+set vars(db)                                 "1"
+set vars(depth)                              "2"
+set vars(g2module)                           "mem"
+set vars(lef)                                "1"
+set vars(lib)                                "1"
+set vars(pagename)                           "mem"
+set vars(vlog)                               "1"
