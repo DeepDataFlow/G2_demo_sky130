@@ -5,6 +5,12 @@ A ready-made [G2](https://github.com/DeepDataFlow/G2) project on the
 can start working on real designs right away. You don't need to set up a
 project, scenarios or libraries yourself.
 
+![G2 Impl Status view of G2_demo_sky130](snapshot/snapshot1.png)
+
+*The Impl Status view at the Place stage of the `v01` run. For each block,
+it shows the floorplan, the RUDY congestion map, errors, runtime,
+instance count, reg2reg timing, and the flows used.*
+
 ## What's Inside
 
 | | |
