@@ -63,17 +63,24 @@ already sourced. It runs two scripts:
 
 ## Try It
 
+New to G2? The [Getting Started video series](https://www.youtube.com/playlist?list=PLZvKK6r2180A) shows this workflow
+step by step. The videos use the Nangate45 demo, so the library names and
+numbers differ from this project, but the pages and steps are the same.
+
 1. Open **Impl → gcd → v01** to see the reference results.
 2. Run the flows in order: **yosys** → **openroad** → **openrcx** →
    **opensta** → **openpv**. Every flow uses the same steps: go to the
    **Exec** view, click **Gen**, then **Run**, then **QoR**.
+   [Tutorial #3](https://www.youtube.com/watch?v=saEB3l4aPWk) runs the first four of these flows.
 3. Compare your QoR against the reference numbers.
 4. Experiment with a new version, such as `v02`: change the clock
    target, utilization or scripts, then compare `v01` and `v02` side by
-   side in the **Status** view.
+   side in the **Status** view. [Tutorial #5](https://www.youtube.com/watch?v=99AJz-IdMXw) does this
+   with a new clock constraint.
 
 A good first challenge: the `v01` baseline for gcd at 1 GHz does not meet
 setup timing at the slow corner. See how close you can get.
+[Tutorial #6](https://www.youtube.com/watch?v=8SoFOXsoSHk) shows how to find out why a path fails.
 
 ## Project Layout
 
