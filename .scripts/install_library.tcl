@@ -60,3 +60,29 @@ cd $pjroot/lim/mem
       lim-build-all-libcells
       lim-ai-fill
  
+# mem : fakeram_256x22
+cd $pjroot/lim/mem
+
+  mem_new fakeram_256x22
+  cd fakeram_256x22
+
+    mem_new_version v01
+    cd v01
+      gset . srcpath $pjroot/ldata/mem/fakeram_256x22
+      lim-build-liblist
+      lim-build-all-libcells
+      lim-ai-fill
+ 
+# mem : fakeram_256x64
+cd $pjroot/lim/mem
+
+  mem_new fakeram_256x64
+  cd fakeram_256x64
+
+    mem_new_version v01
+    cd v01
+      gset . srcpath $pjroot/ldata/mem/fakeram_256x64
+      lim-build-liblist
+      lim-build-all-libcells
+      lim-ai-fill
+ 
