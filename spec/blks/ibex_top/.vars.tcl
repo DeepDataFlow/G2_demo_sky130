@@ -1,0 +1,8 @@
+set vars(blkname)                            "ibex_top"
+set vars(depth)                              "3"
+set vars(g2module)                           "spec-blk"
+set vars(level)                              "0"
+set vars(lim/mem)                            "{fakeram_256x22 : v01} {fakeram_256x64 : v01}"
+set vars(lim/stdcell)                        "{sky130_fd_sc_hd : v0.0.2}"
+set vars(pagename)                           "ibex_top"
+set vars(view)                               "PPA"
