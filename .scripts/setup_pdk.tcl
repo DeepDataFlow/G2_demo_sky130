@@ -29,3 +29,8 @@ cd $pjroot/spec/global
 
 gset . syn_corner      func.max_ss1p600v100c_cworst
 gset . unit,time       ns
+
+# spec/pdk/.vars.tcl now holds machine-specific PDK paths: hide the local
+# change from git status (-C: we are in spec/global; catch: no .git if the
+# project was downloaded as a zip)
+catch {exec git -C $pjroot update-index --skip-worktree spec/pdk/.vars.tcl}
